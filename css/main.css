@@ -29,3 +29,35 @@ ul {
 .dfn:first-child {
   background-color: #b58900;
 }
+
+.dfn p + strong {
+  color: #fff;
+}
+
+mark {
+  background-color: #719e07;
+}
+
+li a[rel="external"] {
+  background-color: #2694d8;
+}
+
+ol li:first-of-type {
+  color: #719e47;
+}
+
+ol li:last-of-type {
+  color: #2aa198;
+}
+
+.types li:nth-child(odd) {
+  background-color: #657ba3;
+}
+
+.types li:nth-child(even) {
+  background-color: #586e75;
+}
+
+.types li:nth-child(3n+3) {
+  background-color: #d04b16;
+} /* elect every third list item inside unordered lists. That is, the 3rd, 6th, 9th, 12th */
