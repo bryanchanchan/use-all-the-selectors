@@ -64,4 +64,5 @@ ol li:last-of-type {
 
 .types li:nth-child(3n+3) {
   background-color: #d04b16;
-} /* elect every third list item inside unordered lists. That is, the 3rd, 6th, 9th, 12th */
+}
+/* elect every third list item inside unordered lists. That is, the 3rd, 6th, 9th, 12th */
